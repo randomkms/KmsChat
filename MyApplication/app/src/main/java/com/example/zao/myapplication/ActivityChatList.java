@@ -19,7 +19,7 @@ public class ActivityChatList extends AppCompatActivity {
 
     public static OpenChannel openChannel;
 
-    private String[] names = { "Friends", "ZGIA", "Girlfriend" };
+    private String[] names = { "Friends", "NightRaid", "SP115" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
