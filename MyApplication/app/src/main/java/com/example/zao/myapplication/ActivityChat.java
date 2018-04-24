@@ -29,7 +29,7 @@ public class ActivityChat extends AppCompatActivity {
     }
 
     public void buttonSendOnClick(View v) {
-        ActivityChatList.openChannel.sendUserMessage(editTextMessage.getText().toString(), null, "776", new BaseChannel.SendUserMessageHandler() {
+        ActivityChatList.currentOpenChannel.sendUserMessage(editTextMessage.getText().toString(), null, "776", new BaseChannel.SendUserMessageHandler() {
             @Override
             public void onSent(UserMessage userMessage, SendBirdException e) {
                 if (e != null) {

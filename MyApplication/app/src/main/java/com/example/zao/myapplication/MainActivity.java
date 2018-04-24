@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonLogInOnClick(View v) {
+        Toast.makeText(getBaseContext(), "Connecting..", Toast.LENGTH_SHORT).show();
         SendBird.connect(editTextLogIn.getText().toString(), "368795ec2183f4da5882d8b542c31ba090177093", new SendBird.ConnectHandler() {
             @Override
             public void onConnected(User user, SendBirdException e) {
