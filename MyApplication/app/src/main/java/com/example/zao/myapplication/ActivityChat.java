@@ -38,7 +38,7 @@ public class ActivityChat extends AppCompatActivity {
                 }
 
                 editTextMessage.getText().clear();
-                adapter.add(userMessage.getMessage());
+                adapter.add(userMessage.getSender().getUserId() + ": " + userMessage.getMessage());
             }
         });
     }
