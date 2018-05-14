@@ -25,6 +25,8 @@ public class ActivityChatList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_list);
 
+        Toast.makeText(getBaseContext(), "Hello " + MainActivity.CurrentUserName, Toast.LENGTH_SHORT).show();
+
         ListView chatList = findViewById(R.id.listViewChatList);
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
         chatList.setAdapter(adapter);

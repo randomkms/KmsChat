@@ -24,14 +24,16 @@
         android:ems="10"
         android:textSize="20sp"
         android:inputType="text" />
+
     <Button
         android:id="@+id/buttonSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/send"
-        android:textSize="18sp"
-        android:onClick="buttonSendOnClick"
         android:layout_alignBaseline="@+id/editTextMessage"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:onClick="buttonSendOnClick"
+        android:text="@string/send"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 </RelativeLayout>

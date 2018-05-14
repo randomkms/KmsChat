@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Kms Chat</string>
 
     <string name="login_error">Login error: %s</string>
     <string name="get_channel_error">Get channel error: %s</string>
@@ -7,4 +7,5 @@
     <string name="send_message_error">Send message error: %s</string>
     <string name="message_placeholder">Message</string>
     <string name="send">Send</string>
+    <string name="sending">Sending</string>
 </resources>
